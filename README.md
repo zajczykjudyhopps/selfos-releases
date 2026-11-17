@@ -2,26 +2,30 @@
 
 Instalatory i aktualizacje aplikacji SELF. Kod źródłowy aplikacji nie jest publikowany w tym repozytorium.
 
-## Pobieranie
+## Self Chat 0.3.0 — wydanie testowe
 
-Otwórz [najnowsze wydanie](https://github.com/zajczykjudyhopps/selfos-releases/releases/latest). SELFOS HUB wybiera instalator zgodny z systemem i architekturą komputera.
+[Instalatory Windows x64 i macOS Apple Silicon](https://github.com/zajczykjudyhopps/selfos-releases/releases/tag/self-chat-v0.3.0).
 
-SELF Flow 5.0.1 to dotychczasowy SELF OS. Pakiet nadal instaluje aplikację pod nazwą SELF OS, zachowując lokalizację danych.
+Workspace’y są dostępne jako klikalne przyciski na przewijanym lewym pasku. Konto, znajomi i grupy są wspólne z Self Hub. Do testu na Windows użyj Self Hub 0.6.0 oraz Self Chat 0.3.0. Pełny test rozmowy na dwóch rzeczywistych komputerach pozostaje do wykonania.
 
-## Publikowanie kolejnego wydania
+## Katalog Self Hub 0.6.0 i nowszych
 
-1. Otwórz publikator w SELFOS HUB: **Źródło aplikacji → Otwórz publikator wydań**.
-2. Ustaw wersję i wybierz instalatory. Eksportuj do stałego folderu katalogu; używaj go ponownie, aby zachować inne aplikacje.
-3. W tym repozytorium otwórz **Releases → Draft a new release**. Wybierz nowy tag, np. `self-flow-v5.0.2`, i podaj opis zmian.
-4. Dodaj `catalog.json` oraz wszystkie instalatory z folderu `assets` wygenerowanego przez publikator. Pliki instalatorów załącz bezpośrednio do wydania — nie jako folder ani ZIP.
-5. Kliknij **Publish release**. Wydanie musi być zwykłym, najnowszym wydaniem, a nie wersją testową (Pre-release).
+Katalog znajduje się w [catalog.json](https://github.com/zajczykjudyhopps/selfos-releases/blob/main/catalog.json). Hub pobiera go z:
 
-Hub sam sprawdza najnowsze wydanie. Użytkownicy nie konfigurują GitHuba i nie potrzebują konta GitHub. Obecnie rozpoczęcie instalacji wymaga potwierdzenia w hubie.
+`https://raw.githubusercontent.com/zajczykjudyhopps/selfos-releases/main/catalog.json`
 
-Każde najnowsze wydanie musi zawierać pełny katalog i instalatory dla wszystkich aplikacji w tym katalogu. Po opublikowaniu nie podmieniaj plików: poprawki wydawaj jako nową wersję.
+Każdy pakiet ma jawny system, architekturę, rozmiar, SHA-256 i adres instalatora z Releases tego repozytorium. Nowy Hub pobiera Chat z GitHuba i nie zawiera jego instalatora. Flow i Chat są dostępne w jednym katalogu, niezależnie od workspace’u.
 
-## Adres aktualizacji
+## Publikowanie kolejnych wersji
 
-`https://github.com/zajczykjudyhopps/selfos-releases/releases/latest/download/catalog.json`
+1. Zbuduj instalatory i sprawdź wersje, architektury oraz integrację logowania.
+2. Utwórz nowe wydanie z nowym tagiem i dodaj instalatory. Nie podmieniaj opublikowanych instalatorów istniejącej wersji.
+3. Sprawdź dostępność plików, rozmiary i sumy SHA-256.
+4. Zaktualizuj główny catalog.json, zachowując wpisy pozostałych aplikacji. Pakiety mogą wskazywać różne niezmienne tagi wydań; nie trzeba ponownie dodawać instalatorów Flow przy wydaniu Chata.
+5. Użytkownik odświeża katalog w Hubie i rozpoczyna instalację lub aktualizację.
 
-Publicznie dostępne są wyłącznie pliki wydań i dokumentacja. Nie dodawaj tu haseł, tokenów, danych użytkowników ani kopii roboczych aplikacji.
+## Zgodność ze starszym Hubem
+
+Hub 0.5.0 i wcześniejszy korzysta z `/releases/latest/download/catalog.json` i wymaga kompletu plików w tym jednym wydaniu. Wydanie Chata 0.3.0 jest oznaczone jako Pre-release, aby nie zmienić kanału starszych Hubów. Obecne wydanie Flow pozostaje dostępne pod dotychczasowymi adresami. Zainstaluj Hub 0.6.0, aby korzystać z nowego wspólnego katalogu.
+
+Publiczne są wyłącznie pliki wydań, katalog i dokumentacja. Nie dodawaj haseł, tokenów, danych użytkowników ani kopii roboczych aplikacji.
