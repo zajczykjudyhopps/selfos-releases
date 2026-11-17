@@ -2,9 +2,11 @@
 
 Instalatory i aktualizacje aplikacji SELF. Kod źródłowy aplikacji nie jest publikowany w tym repozytorium.
 
-## Self Hub 0.7.0
+## Self Hub 0.7.1
 
-[Instalatory Windows x64 i macOS Apple Silicon](https://github.com/zajczykjudyhopps/selfos-releases/releases/tag/self-hub-v0.7.0).
+[Instalatory Windows x64 i macOS Apple Silicon](https://github.com/zajczykjudyhopps/selfos-releases/releases/tag/self-hub-v0.7.1).
+
+W wersji 0.7.1 Windows otrzymuje jeden zintegrowany pasek okna, bez menu File/Edit/View/Window, z natywnymi przyciskami i cienkimi ciemnymi paskami przewijania. Hub 0.7.0 pobiera tę wersję automatycznie, gdy jest wolny. Pakiet Mac 0.7.1 zachowuje zgodność wspólnego katalogu.
 
 Poprawiono błąd ENOTEMPTY przy sprzątaniu kopii poprzedniej aplikacji. Instalacja zastępuje aplikację w dotychczasowym miejscu. Na Macu nieudana aktywacja lub weryfikacja przywraca poprzednią wersję. Nowy pasek pokazuje procent pobierania, prędkość, czas oraz osobne etapy instalacji i znika po zakończeniu.
 
@@ -16,7 +18,7 @@ Hub 0.7.0 sprawdza własne aktualizacje po uruchomieniu, po wznowieniu komputera
 
 [Instalatory Windows x64 i macOS Apple Silicon](https://github.com/zajczykjudyhopps/selfos-releases/releases/tag/self-chat-v0.3.0).
 
-Workspace’y są klikalnymi przyciskami na przewijanym lewym pasku. Konto, znajomi i grupy są wspólne z Self Hub. Do testu na Windows użyj Self Hub 0.7.0 oraz Self Chat 0.3.0. Pełny test rozmowy na dwóch rzeczywistych komputerach pozostaje do wykonania.
+Workspace’y są klikalnymi przyciskami na przewijanym lewym pasku. Konto, znajomi i grupy są wspólne z Self Hub. Do testu na Windows użyj Self Hub 0.7.1 oraz Self Chat 0.3.0. Pełny test rozmowy na dwóch rzeczywistych komputerach pozostaje do wykonania.
 
 ## Katalog aplikacji
 
