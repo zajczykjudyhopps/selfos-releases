@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "id": "self-flow",
+      "name": "Self Flow",
+      "description": "Zadania, projekty, cele i wiedza. Dotychczasowy SELF OS w Twoim centrum aplikacji.",
+      "installName": "SELF OS",
+      "version": "5.0.1",
+      "packages": [
+        {
+          "platform": "darwin",
+          "arch": "universal",
+          "type": "dmg",
+          "sha256": "204b0782a552b1305dad8f7373e3bd900109ff0f0bf01a47cd89e309426cefb6",
+          "size": 229915895,
+          "file": "assets/self-flow-5.0.1-darwin-universal.dmg",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-flow-v5.0.1/self-flow-5.0.1-darwin-universal.dmg"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "type": "nsis",
+          "sha256": "0b270a6d5f337c62c01b804fd4ffc39429fcfe056a26f534b2517c5ae3e99301",
+          "size": 123917087,
+          "file": "assets/self-flow-5.0.1-win32-x64.exe",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-flow-v5.0.1/self-flow-5.0.1-win32-x64.exe"
+        }
+      ]
+    },
+    {
+      "id": "self-chat",
+      "name": "Self Chat",
+      "description": "Rozmowy ze znajomymi i kanały workspace. Wspólne konto SELF.",
+      "installName": "Self Chat",
+      "version": "0.3.0",
+      "packages": [
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "type": "dmg",
+          "file": "assets/Self-Chat-0.3.0-macOS-arm64.dmg",
+          "size": 130588878,
+          "sha256": "c4f4eed681f338fa08072ba5a5490a1ed0ac872f6752d062ea8107c1196c3fa1",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.3.0/Self-Chat-0.3.0-macOS-arm64.dmg"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "type": "nsis",
+          "file": "assets/Self-Chat-Setup-0.3.0-Windows-x64.exe",
+          "size": 121156615,
+          "sha256": "327bf50e9a6cb7994c3000fd87d2486e148d54c6f5543ce894195d33a826423b",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.3.0/Self-Chat-Setup-0.3.0-Windows-x64.exe"
+        }
+      ]
+    }
+  ]
+}
