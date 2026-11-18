@@ -14,11 +14,13 @@ Hub 0.7.0 sprawdza własne aktualizacje po uruchomieniu, po wznowieniu komputera
 
 **Przejście ze starszego Huba do 0.7.0 wymaga jednorazowej instalacji ręcznej w dotychczasowym miejscu.** Kolejne wersje obsługuje autoaktualizacja. Rzeczywista podmiana Chata i Huba została sprawdzona na Macu, z zachowaniem danych. Instalator Windows przeszedł budowanie oraz kontrolę wersji i zawartości; pełny test na rzeczywistym Windows pozostaje do wykonania.
 
-## Self Chat 0.3.0 — wydanie testowe
+## Self Chat 0.4.0 — wydanie testowe
 
-[Instalatory Windows x64 i macOS Apple Silicon](https://github.com/zajczykjudyhopps/selfos-releases/releases/tag/self-chat-v0.3.0).
+[Instalatory Windows x64 i macOS Apple Silicon](https://github.com/zajczykjudyhopps/selfos-releases/releases/tag/self-chat-v0.4.0).
 
-Workspace’y są klikalnymi przyciskami na przewijanym lewym pasku. Konto, znajomi i grupy są wspólne z Self Hub. Do testu na Windows użyj Self Hub 0.7.1 oraz Self Chat 0.3.0. Pełny test rozmowy na dwóch rzeczywistych komputerach pozostaje do wykonania.
+Powiadomienia o wiadomościach, działanie w tle z zasobnikiem, odpowiedzi z cytatem w głównej rozmowie, zdjęcia bezpośrednio w czacie i duży podgląd 1:1. Poprawiono formularze oraz dodano trwałe usuwanie kanałów i workspace z kosza po potwierdzeniu nazwy i sprawdzeniu roli. Przed aktualizacją zamknij Chat przez Zakończ w menu zasobnika lub Cmd+Q; po instalacji otwórz przez Hub.
+
+Chat korzysta z sesji Huba, więc Hub powinien pozostawać zalogowany. Powiadomienia wymagają zgody systemowej; profil zawiera test i informację o błędzie. Testy logiki i backendu przeszły, ale macOS odmówił banerów kopii QA. Dostarczenie powiadomień na docelowej instalacji oraz pełny test Windows pozostają do sprawdzenia. Mac ma podpis lokalny bez notaryzacji Apple i może zostać zablokowany przy pierwszym uruchomieniu.
 
 ## Katalog aplikacji
 
