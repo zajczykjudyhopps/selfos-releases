@@ -32,28 +32,28 @@
       "id": "self-chat",
       "name": "Self Chat",
       "installName": "Self Chat",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "packages": [
         {
           "platform": "darwin",
           "arch": "arm64",
           "type": "dmg",
-          "file": "assets/Self-Chat-0.6.0-macOS-arm64.dmg",
-          "size": 130421654,
-          "sha256": "acacabc6f5522915338b9bcb0bf19ea1dd57a2223b2447afd259c1fc7db6d30c",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/Self-Chat-0.6.0-macOS-arm64.dmg"
+          "file": "assets/Self-Chat-0.7.0-macOS-arm64.dmg",
+          "size": 130250834,
+          "sha256": "92ec5fb9c93c8112ef8abc099ae56b998cbb0f6ffd207d35840048e52c4dc7d7",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.7.0/Self-Chat-0.7.0-macOS-arm64.dmg"
         },
         {
           "platform": "win32",
           "arch": "x64",
           "type": "nsis",
-          "file": "assets/Self-Chat-Setup-0.6.0-Windows-x64.exe",
-          "size": 121163743,
-          "sha256": "9c16302a4f5c8c3b257c14948752a6fe67e663273832998976033fd815e0705a",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/Self-Chat-Setup-0.6.0-Windows-x64.exe"
+          "file": "assets/Self-Chat-Setup-0.7.0-Windows-x64.exe",
+          "size": 121169061,
+          "sha256": "127127efcf9637ea995dd8b8dfd67574d65cf944631fc479954e3021bb3cdd67",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.7.0/Self-Chat-Setup-0.7.0-Windows-x64.exe"
         }
       ],
-      "description": "Prywatne rozmowy i kategorie kanałów workspace."
+      "description": "Prywatne rozmowy, kategorie i kanały workspace oraz podglądy multimediów."
     }
   ]
 }
