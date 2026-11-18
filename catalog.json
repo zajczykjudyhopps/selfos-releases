@@ -4,56 +4,56 @@
     {
       "id": "self-flow",
       "name": "Self Flow",
-      "description": "Zadania, projekty, cele i wiedza. Dotychczasowy SELF OS w Twoim centrum aplikacji.",
       "installName": "SELF OS",
-      "version": "5.0.1",
-      "packages": [
-        {
-          "platform": "darwin",
-          "arch": "universal",
-          "type": "dmg",
-          "sha256": "204b0782a552b1305dad8f7373e3bd900109ff0f0bf01a47cd89e309426cefb6",
-          "size": 229915895,
-          "file": "assets/self-flow-5.0.1-darwin-universal.dmg",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-flow-v5.0.1/self-flow-5.0.1-darwin-universal.dmg"
-        },
-        {
-          "platform": "win32",
-          "arch": "x64",
-          "type": "nsis",
-          "sha256": "0b270a6d5f337c62c01b804fd4ffc39429fcfe056a26f534b2517c5ae3e99301",
-          "size": 123917087,
-          "file": "assets/self-flow-5.0.1-win32-x64.exe",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-flow-v5.0.1/self-flow-5.0.1-win32-x64.exe"
-        }
-      ]
-    },
-    {
-      "id": "self-chat",
-      "name": "Self Chat",
-      "description": "Rozmowy ze znajomymi i kanały workspace. Wspólne konto SELF.",
-      "installName": "Self Chat",
-      "version": "0.4.0",
+      "version": "5.1.0",
       "packages": [
         {
           "platform": "darwin",
           "arch": "arm64",
           "type": "dmg",
-          "file": "assets/Self-Chat-0.4.0-macOS-arm64.dmg",
-          "size": 130410295,
-          "sha256": "02ce5ef8059169c38274861f2035b2abb1c7f2d1fe6c3c8a06de62ce20f89f23",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.4.0/Self-Chat-0.4.0-macOS-arm64.dmg"
+          "file": "assets/SELF-OS-5.1.0-macOS-arm64.dmg",
+          "size": 120143281,
+          "sha256": "c448926297fcef1f9f2dd3ba1f55ea64d155eaa35d2473f98240ebb9d9451bdf",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/SELF-OS-5.1.0-macOS-arm64.dmg"
         },
         {
           "platform": "win32",
           "arch": "x64",
           "type": "nsis",
-          "file": "assets/Self-Chat-Setup-0.4.0-Windows-x64.exe",
-          "size": 121159888,
-          "sha256": "6386b0cc3973fdd70dec5de4d940b276c84ad088825a1a57c30148e814122fb0",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.4.0/Self-Chat-Setup-0.4.0-Windows-x64.exe"
+          "file": "assets/SELF-OS-Setup-5.1.0.exe",
+          "size": 121533774,
+          "sha256": "cca02f3198976504682b2fd6306ac8b005bf8b7b249e2508732e042746c1974b",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/SELF-OS-Setup-5.1.0.exe"
         }
-      ]
+      ],
+      "description": "Twoje zadania, projekty i rozwój."
+    },
+    {
+      "id": "self-chat",
+      "name": "Self Chat",
+      "installName": "Self Chat",
+      "version": "0.6.0",
+      "packages": [
+        {
+          "platform": "darwin",
+          "arch": "arm64",
+          "type": "dmg",
+          "file": "assets/Self-Chat-0.6.0-macOS-arm64.dmg",
+          "size": 130421654,
+          "sha256": "acacabc6f5522915338b9bcb0bf19ea1dd57a2223b2447afd259c1fc7db6d30c",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/Self-Chat-0.6.0-macOS-arm64.dmg"
+        },
+        {
+          "platform": "win32",
+          "arch": "x64",
+          "type": "nsis",
+          "file": "assets/Self-Chat-Setup-0.6.0-Windows-x64.exe",
+          "size": 121163743,
+          "sha256": "9c16302a4f5c8c3b257c14948752a6fe67e663273832998976033fd815e0705a",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/Self-Chat-Setup-0.6.0-Windows-x64.exe"
+        }
+      ],
+      "description": "Prywatne rozmowy i kategorie kanałów workspace."
     }
   ]
 }
