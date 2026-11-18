@@ -2,25 +2,25 @@
   "id": "self-hub",
   "name": "Self Hub",
   "installName": "SELFOS HUB",
-  "version": "0.7.1",
+  "version": "0.9.0",
   "packages": [
     {
       "platform": "darwin",
       "arch": "arm64",
       "type": "dmg",
-      "file": "assets/SELFOS-HUB-0.7.1-macOS-arm64.dmg",
-      "size": 130327941,
-      "sha256": "db7dcde953e80c92bc785cfef3fafc861e5dac18d16a62d9766b703d74d30a43",
-      "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-hub-v0.7.1/SELFOS-HUB-0.7.1-macOS-arm64.dmg"
+      "file": "assets/SELFOS-HUB-0.9.0-macOS-arm64.dmg",
+      "size": 130463013,
+      "sha256": "319d8849fdd3626110f5d55222f61181271412186f1e9f0d632a20d791e218fa",
+      "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/SELFOS-HUB-0.9.0-macOS-arm64.dmg"
     },
     {
       "platform": "win32",
       "arch": "x64",
       "type": "nsis",
-      "file": "assets/Self-Hub-Setup-0.7.1-Windows-x64.exe",
-      "size": 121143676,
-      "sha256": "6b28a417220b77f062de60552a1a89d7787fd76220454017fff9d72e3b5d4833",
-      "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-hub-v0.7.1/Self-Hub-Setup-0.7.1-Windows-x64.exe"
+      "file": "assets/Self-Hub-Setup-0.9.0-Windows-x64.exe",
+      "size": 121149393,
+      "sha256": "7ed6838e75c7f0d1c4d4a72edc3ff925c9998725f28784a2d7f0496819318d31",
+      "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-ecosystem-2026-11-18/Self-Hub-Setup-0.9.0-Windows-x64.exe"
     }
   ]
 }
