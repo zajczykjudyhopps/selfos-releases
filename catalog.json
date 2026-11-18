@@ -33,25 +33,25 @@
       "name": "Self Chat",
       "description": "Rozmowy ze znajomymi i kanały workspace. Wspólne konto SELF.",
       "installName": "Self Chat",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "packages": [
         {
           "platform": "darwin",
           "arch": "arm64",
           "type": "dmg",
-          "file": "assets/Self-Chat-0.3.0-macOS-arm64.dmg",
-          "size": 130588878,
-          "sha256": "c4f4eed681f338fa08072ba5a5490a1ed0ac872f6752d062ea8107c1196c3fa1",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.3.0/Self-Chat-0.3.0-macOS-arm64.dmg"
+          "file": "assets/Self-Chat-0.4.0-macOS-arm64.dmg",
+          "size": 130410295,
+          "sha256": "02ce5ef8059169c38274861f2035b2abb1c7f2d1fe6c3c8a06de62ce20f89f23",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.4.0/Self-Chat-0.4.0-macOS-arm64.dmg"
         },
         {
           "platform": "win32",
           "arch": "x64",
           "type": "nsis",
-          "file": "assets/Self-Chat-Setup-0.3.0-Windows-x64.exe",
-          "size": 121156615,
-          "sha256": "327bf50e9a6cb7994c3000fd87d2486e148d54c6f5543ce894195d33a826423b",
-          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.3.0/Self-Chat-Setup-0.3.0-Windows-x64.exe"
+          "file": "assets/Self-Chat-Setup-0.4.0-Windows-x64.exe",
+          "size": 121159888,
+          "sha256": "6386b0cc3973fdd70dec5de4d940b276c84ad088825a1a57c30148e814122fb0",
+          "url": "https://github.com/zajczykjudyhopps/selfos-releases/releases/download/self-chat-v0.4.0/Self-Chat-Setup-0.4.0-Windows-x64.exe"
         }
       ]
     }
